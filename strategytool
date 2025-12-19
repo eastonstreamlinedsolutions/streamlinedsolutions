@@ -1,0 +1,892 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2867
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 ArialMT;\f1\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 <!DOCTYPE html>
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 <html lang="en">
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 <head>
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0<meta charset="UTF-8">
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0<title>Growth Diagnostic | Streamlined Solutions</title>
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0<style>
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0:root \{
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0--ss-green: #16c800;
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0--ss-black: #000000;
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0--ss-gray: #f4f4f4;
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0--ss-dark-gray: #333333;
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\}
+\f1\fs24 \
+\
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0/* INCREASED DESKTOP WIDTH */
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0.ss-quiz-container \{
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0max-width: 850px;\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0margin: 40px auto;
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0padding: 0 20px;
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0-webkit-font-smoothing: antialiased;
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\}
+\f1\fs24 \
+\
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0/* SCALED UP HEADER */
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0.ss-quiz-header \{ text-align: center; padding: 40px 0; \}
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0.ss-quiz-header .ss-hook \{\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0color: var(--ss-green);\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0font-weight: 800;\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0margin-bottom: 15px;\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0font-size: 1.1rem; /* Bigger */
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0text-transform: uppercase;\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0letter-spacing: 3px;\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\}
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0.ss-quiz-header h1 \{\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0text-transform: uppercase;\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0letter-spacing: 4px;\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0font-size: 3rem; /* Significantly Bigger */
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0margin: 0;\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0color: var(--ss-black);\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0font-weight: 900;\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0line-height: 1.1;\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\}
+\f1\fs24 \
+\
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0/* DYNAMIC UNDERLINE */
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0.ss-underline-container \{
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0position: relative;
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0display: inline-block;
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0white-space: nowrap;
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\}
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0.ss-underline-svg \{
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0position: absolute;
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0left: 0;
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0bottom: -15px;
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0width: 100%;
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0height: 15px;
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0z-index: -1;
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\}
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0.ss-underline-path \{
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0fill: none;
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0stroke: var(--ss-green);
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0stroke-width: 5;
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0stroke-linecap: round;
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0stroke-dasharray: 1000;
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0stroke-dashoffset: 1000;
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0animation: ssDrawLine 1.5s ease-out forwards;
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0animation-delay: 0.3s;
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\}
+\f1\fs24 \
+\
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0.ss-quiz-header .ss-sub \{\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0opacity: 0.7;\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0font-size: 1.2rem; /* Bigger */
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0margin-top: 35px;\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0line-height: 1.6;\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0max-width: 600px;\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0margin-left: auto;\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0margin-right: auto;\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0font-weight: 500;
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\}
+\f1\fs24 \
+\
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0/* BIGGER CARD */
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0.ss-quiz-card \{
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0background: #ffffff;
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0border: 1px solid #e0e0e0;
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0padding: 60px 50px; /* More padding */
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0text-align: center;
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0min-height: 500px;
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0display: flex;
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0flex-direction: column;
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0justify-content: center;
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0box-shadow: 0 20px 50px rgba(0,0,0,0.07);
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0border-radius: 8px;
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\}
+\f1\fs24 \
+\
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0.ss-quiz-step \{ display: none; \}
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0.ss-quiz-step.active \{ display: block; animation: ssFadeIn 0.4s ease forwards; \}
+\f1\fs24 \
+\
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0.ss-step-title \{\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0text-transform: uppercase;\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0letter-spacing: 2px;\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0font-size: 1.4rem; /* Bigger */
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0margin-bottom: 40px;\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0font-weight: 700;\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0line-height: 1.4;\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\}
+\f1\fs24 \
+\
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0/* BIGGER OPTIONS */
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0.ss-options-grid \{ display: grid; gap: 18px; \}
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0.ss-option \{\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0padding: 28px;\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0border: 2px solid var(--ss-gray);\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0cursor: pointer;\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0transition: all 0.2s ease;\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0font-weight: 600;\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0text-transform: uppercase;\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0font-size: 1rem; /* Bigger */
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0letter-spacing: 1.5px;\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0line-height: 1.4;
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0display: flex;
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0align-items: center;
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0justify-content: center;
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0min-height: 80px;
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\}
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0.ss-option:hover, .ss-option:active \{ border-color: var(--ss-green); background: rgba(22, 200, 0, 0.04); transform: translateY(-3px); box-shadow: 0 5px 15px rgba(0,0,0,0.05); \}
+\f1\fs24 \
+\
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0/* BIGGER INPUTS */
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0.ss-input-group \{ margin-bottom: 20px; \}
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0.ss-input \{\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0width: 100%;\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0padding: 22px;\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0border: 2px solid var(--ss-gray);\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0box-sizing: border-box;\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0font-size: 18px; /* Bigger */
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0border-radius: 0;\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0font-family: inherit;
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\}
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0.ss-input:focus \{ border-color: var(--ss-green); outline: none; \}
+\f1\fs24 \
+\
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0/* BIGGER BUTTONS */
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0.ss-btn \{\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0display: inline-block;\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0width: 100%;\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0padding: 25px;\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0text-decoration: none;\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0text-transform: uppercase;\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0font-weight: 700;\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0letter-spacing: 2.5px;\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0border: none;\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0cursor: pointer;\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0transition: all 0.3s ease;\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0text-align: center;\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0box-sizing: border-box;\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0font-size: 1.1rem;\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\}
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0.ss-btn-black \{ background: var(--ss-black); color: #fff; margin-top: 20px; \}
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0.ss-btn-green \{ background: var(--ss-green); color: #fff; margin-top: 20px; \}
+\f1\fs24 \
+\
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0.ss-bonus-box \{ margin: 30px 0; padding: 25px; border: 1px dashed var(--ss-green); background: rgba(22, 200, 0, 0.02); text-align: left; \}
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0.ss-bonus-tag \{ color: var(--ss-green); font-weight: 800; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 2px; display: block; margin-bottom: 8px; \}
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0.ss-bonus-text \{ font-size: 1rem; color: var(--ss-black); margin: 0; font-weight: 500; line-height: 1.5; \}
+\f1\fs24 \
+\
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0.ss-restart \{ margin-top: 45px; background: none; border: none; text-decoration: underline; text-transform: uppercase; font-size: 0.8rem; letter-spacing: 2px; cursor: pointer; opacity: 0.4; padding: 10px; \}
+\f1\fs24 \
+\
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0/* RESPONSIVE SCALING DOWN FOR MOBILE */
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0@media (max-width: 600px) \{
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0.ss-quiz-header h1 \{ font-size: 1.8rem; \}
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0.ss-quiz-header .ss-sub \{ font-size: 1rem; \}
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0.ss-quiz-card \{ padding: 35px 20px; min-height: 480px; \}
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0.ss-step-title \{ font-size: 1.1rem; \}
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0.ss-option \{ font-size: 0.8rem; padding: 20px; min-height: 65px; \}
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0.ss-btn \{ padding: 20px; font-size: 0.9rem; \}
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\}
+\f1\fs24 \
+\
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0@keyframes ssFadeIn \{ from \{ opacity: 0; transform: translateY(15px); \} to \{ opacity: 1; transform: translateY(0); \} \}
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0@keyframes ssDrawLine \{ to \{ stroke-dashoffset: 0; \} \}
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0</style>
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 </head>
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 <body>
+\f1\fs24 \
+\
+
+\f0\fs29\fsmilli14667 <div class="ss-quiz-container">
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0<div class="ss-quiz-header">
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0<p class="ss-hook">Free Strategy Tool</p>
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0<h1>
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0Maximize Your<br>
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0<span class="ss-underline-container">
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0Business Growth
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0<svg class="ss-underline-svg" viewBox="0 0 300 12" preserveAspectRatio="none">
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0<path class="ss-underline-path" d="M4 8C60 4 120 4 296 8" />
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0</svg>
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0</span>
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0</h1>
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0<p class="ss-sub">Use our free strategy tool to ensure your systems are aligned with your goals and your schedule is built to reclaim your time.</p>
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0</div>
+\f1\fs24 \
+\
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0<div class="ss-quiz-card">
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0<div class="ss-quiz-step active" id="step1">
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0<h2 class="ss-step-title">Where do you want to see the most impact?</h2>
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0<div class="ss-options-grid">
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0<div class="ss-option" onclick="selectGoal('social')">More social media leads / increased digital presence</div>
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0<div class="ss-option" onclick="selectGoal('seo')">Search engine rankings / improved user experience</div>
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0<div class="ss-option" onclick="selectGoal('systems')">Manual work time savings / operational efficiency</div>
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0</div>
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0</div>
+\f1\fs24 \
+\
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0<div class="ss-quiz-step" id="step2">
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0<h2 class="ss-step-title">Secure Your Results</h2>
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0<form id="ss-lead-form" onsubmit="submitToHubSpot(event)">
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0<div class="ss-input-group">
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0<input type="text" id="user-name" class="ss-input" placeholder="FULL NAME" required autocomplete="name">
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0</div>
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0<div class="ss-input-group">
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0<input type="email" id="user-email" class="ss-input" placeholder="EMAIL ADDRESS" required autocomplete="email">
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0</div>
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0<button type="submit" class="ss-btn ss-btn-black" id="submit-btn">Unlock Recommendations</button>
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0</form>
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0</div>
+\f1\fs24 \
+\
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0<div class="ss-quiz-step" id="step3">
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0<div style="background: var(--ss-black); color: #fff; padding: 10px 20px; display: inline-block; margin-bottom: 25px;">
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0<span style="font-size: 0.8rem; letter-spacing: 2px; text-transform: uppercase; font-weight: 700;">Diagnostic Match Found</span>
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0</div>
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0<h1 id="res-title" style="margin: 0 0 15px 0; text-transform: uppercase; font-size: 1.8rem; line-height: 1.2;">--</h1>
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0<p id="res-desc" style="font-size: 1.1rem; line-height: 1.6; color: #555; margin-bottom: 20px;"></p>
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0<div class="ss-bonus-box">
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0<span class="ss-bonus-tag">Bonus Included</span>
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0<p class="ss-bonus-text">Schedule your call now to include a <b>Free Digital Systems Audit</b> ($250 value) with your consultation.</p>
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0</div>
+\f1\fs24 \
+\
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0<a href="https://meetings-na2.hubspot.com/easton-wiechert" target="_blank" class="ss-btn ss-btn-green">Book Your Free Audit Now</a>
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0<a href="#" id="service-link" class="ss-btn ss-btn-black">Learn More About These Services</a>
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0<br>
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0<button class="ss-restart" onclick="restartQuiz()">\uc0\u8592  Back to Start</button>
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0</div>
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0</div>
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 </div>
+\f1\fs24 \
+\
+
+\f0\fs29\fsmilli14667 <script>
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0let selectedPath = "";
+\f1\fs24 \
+\
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0function selectGoal(choice) \{
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0selectedPath = choice;
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0document.getElementById('step1').classList.remove('active');
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0document.getElementById('step2').classList.add('active');
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\}
+\f1\fs24 \
+\
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0function submitToHubSpot(e) \{
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0e.preventDefault();
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0const btn = document.getElementById('submit-btn');
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0const name = document.getElementById('user-name').value;
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0const email = document.getElementById('user-email').value;
+\f1\fs24 \
+\
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0const nameParts = name.trim().split(" ");
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0const firstName = nameParts[0];
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0const lastName = nameParts.slice(1).join(" ") || "Client";
+\f1\fs24 \
+\
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0btn.innerText = "Processing...";
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0btn.disabled = true;
+\f1\fs24 \
+\
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0const portalId = "244076763";
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0const formId = "d8ae4c12-d5d6-4757-8d5a-fbb6f4f9f672";
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0const url = `https://api.hsforms.com/submissions/v3/integration/submit/$\{portalId\}/$\{formId\}`;
+\f1\fs24 \
+\
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0fetch(url, \{
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0method: "POST",
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0headers: \{ 'Content-Type': 'application/json' \},
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0body: JSON.stringify(\{
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0"fields": [
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\{ "name": "firstname", "value": firstName \},
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\{ "name": "lastname", "value": lastName \},
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\{ "name": "email", "value": email \}
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0],
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0"context": \{ "pageUri": window.location.href, "pageName": "Maximize Growth Diagnostic" \}
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\})
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\}).then(() => \{ showResults(); \}).catch(() => \{ showResults(); \});
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\}
+\f1\fs24 \
+\
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0function showResults() \{
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0document.getElementById('step2').classList.remove('active');
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0document.getElementById('step3').classList.add('active');
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0const title = document.getElementById('res-title');
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0const desc = document.getElementById('res-desc');
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0const sLink = document.getElementById('service-link');
+\f1\fs24 \
+\
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0if (selectedPath === 'social') \{
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0title.innerText = "Social Media Packages & Digital Marketing";
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0desc.innerText = "We'll build a custom bridge between your social content and high-quality leads, ensuring your business gets seen by the right audience.";
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0sLink.innerText = "View Social Media Packages";
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0sLink.href = "https://www.streamlined-solutionsllc.com/digital-marketing-services";
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\} else if (selectedPath === 'seo') \{
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0title.innerText = "SEO Optimized Website / Landing Page";
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0desc.innerText = "Your growth depends on visibility. We\'92ll build a technical foundation that dominates search rankings and converts visitors into buyers.";
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0sLink.innerText = "Explore Web & SEO Solutions";
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0sLink.href = "https://www.streamlined-solutionsllc.com/custom-website-development";
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\} else if (selectedPath === 'systems') \{
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0title.innerText = "Operations & Systems Audit";
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0desc.innerText = "Stop losing hours to manual administration. We implement digital toolsets that handle the heavy lifting while you're doing what matters most.";
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0sLink.innerText = "Browse System Implementations";
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0sLink.href = "https://www.streamlined-solutionsllc.com/operational-efficiency-framework";
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\}
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\}
+\f1\fs24 \
+\
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0function restartQuiz() \{
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0document.getElementById('submit-btn').innerText = "Unlock Recommendations";
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0document.getElementById('submit-btn').disabled = false;
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0document.getElementById('step3').classList.remove('active');
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0document.getElementById('step1').classList.add('active');
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0document.getElementById('ss-lead-form').reset();
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 \'a0\'a0\'a0\'a0\}
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 </script>
+\f1\fs24 \
+\
+
+\f0\fs29\fsmilli14667 </body>
+\f1\fs24 \
+
+\f0\fs29\fsmilli14667 </html>
+\f1\fs24 \
+\
+}
